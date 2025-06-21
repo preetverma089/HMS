@@ -14,63 +14,67 @@ const Footers = () => {
         </div>
         <div>
           <h1
-            className=" text-[16px] text-white font-bold
+            className=" text-[16px] text-white font-bold font-serif
           "
           >
             COMPANY
           </h1>
-          <p className="text-gray-600">
-            {" "}
-            <a href="" className="hover:text-blue-500 transition">
-              About
-            </a>
-          </p>
-          <p className="text-gray-600">
-            {" "}
-            <a href="" className="hover:text-blue-500 transition">
-              Doctor
-            </a>
-          </p>
-          <p className="text-gray-600">
-            {" "}
-            <a href="" className="hover:text-blue-500 transition">
-              Service
-            </a>
-          </p>
-          <p className="text-gray-600">
-            {" "}
-            <a href="" className="hover:text-blue-500 transition">
-              Contact
-            </a>
-          </p>
+          <div className="mt-[20px]">
+            <p className="text-gray-600">
+              {" "}
+              <a href="" className="hover:text-blue-500 transition">
+                About
+              </a>
+            </p>
+            <p className="text-gray-600">
+              {" "}
+              <a href="" className="hover:text-blue-500 transition">
+                Doctor
+              </a>
+            </p>
+            <p className="text-gray-600">
+              {" "}
+              <a href="" className="hover:text-blue-500 transition">
+                Service
+              </a>
+            </p>
+            <p className="text-gray-600">
+              {" "}
+              <a href="" className="hover:text-blue-500 transition">
+                Contact
+              </a>
+            </p>
+          </div>
         </div>
         <div>
           <h1
-            className=" text-[16px] text-white font-bold
+            className=" text-[16px] text-white font-bold font-serif
           "
           >
             QUICK LINKS
           </h1>
-          <p className="text-gray-600">
-            <a href="" className="hover:text-blue-500 transition">
-              Login
-            </a>{" "}
-          </p>
-          <p className="text-gray-600">
-            <a href="" className="hover:text-blue-500 transition">
-              SignUp
-            </a>
-          </p>
-          <p className="text-gray-600">
-            <a href="" className="hover:text-blue-500 transition">
-              Forgot
-            </a>
-          </p>
-          <p className="text-gray-600">
-            <a href="" className="hover:text-blue-500 transition">
-              FAQ
-            </a>
-          </p>
+          <div className="mt-[20px]">
+            <p className="text-gray-600">
+              <a href="" className="hover:text-blue-500 transition">
+                Login
+              </a>{" "}
+            </p>
+            <p className="text-gray-600">
+              <a href="" className="hover:text-blue-500 transition">
+                SignUp
+              </a>
+            </p>
+            <p className="text-gray-600">
+              <a href="" className="hover:text-blue-500 transition">
+                Forgot
+              </a>
+            </p>
+            <p className="text-gray-600">
+              <a href="" className="hover:text-blue-500 transition">
+                FAQ
+              </a>
+            </p>
+          </div>
         </div>
       </div>
       <div className="bg-[#212529] flex justify-between items-center px-[60px] h-[50px]">

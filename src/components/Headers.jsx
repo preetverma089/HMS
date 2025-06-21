@@ -25,7 +25,7 @@ const Headers = () => {
         <Button variant="contained" color="info">
           Login
         </Button>
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="info">
           SignUp
         </Button>
       </Box>
